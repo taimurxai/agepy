@@ -1,0 +1,23 @@
+[project]
+name = "agesmart-enterprise"
+version = "2026.8.6"
+description = "AgeSmart Enterprise Account Verification Suite"
+authors = [
+    { name = "AgeSmart Development Team" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "customtkinter>=6.0.0",
+    "requests>=2.31.0",
+    "pillow>=10.0.0",
+    "pillow-heif>=1.0.0",
+    "piexif>=1.1.3",
+    "opencv-python-headless>=4.8.0",
+    "user-agents>=2.2.0",
+    "pyinstaller>=6.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
